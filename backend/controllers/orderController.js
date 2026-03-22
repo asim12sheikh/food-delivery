@@ -3,17 +3,8 @@ import userModel from "../models/userModel.js"
 import Stripe from "stripe";
 
 
-// payment setup /
-
-// const environment = new paypal.core.SandboxEnvironment(
-//    process.env.PAYPAL_CLIENT_ID,
-//    process.env.PAYPAL_SECRET
-// )
-
-// const client = new paypal.core.PayPalHttpClient(environment)
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
-
 
 
 //placing user order for frontend
