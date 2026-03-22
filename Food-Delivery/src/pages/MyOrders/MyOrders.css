@@ -7,6 +7,11 @@
     gap: 20px;
     margin-top: 30px;
 }
+.container .text{
+ font-size: 25px;
+ font-weight: 600;
+ margin-top: 15px;
+}
 
 .my-orders-order{
     display: grid;
