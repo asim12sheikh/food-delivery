@@ -7,6 +7,8 @@ const Cart = () => {
 
  const {cartItems,food_list,removeFromCart, getTotalCartAmount,url,token} = useContext(StoreContext)
  
+  const navigate = useNavigate();
+  
  const handleCheckout = () => {
   if (!token) {
     alert("Please login fisrt to continue");
@@ -16,7 +18,7 @@ const Cart = () => {
 
  } 
 
-  const navigate = useNavigate();
+ 
 
   return (
     <div className='cart'>
