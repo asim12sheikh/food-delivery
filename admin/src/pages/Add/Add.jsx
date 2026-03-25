@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import "./Add.css"
 import { asset } from '../../../assets/asset'
-import { name } from 'ejs'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 
