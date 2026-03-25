@@ -5,9 +5,16 @@ import { useNavigate } from 'react-router-dom'
 
 const Cart = () => {
 
- const {cartItems,food_list,removeFromCart, getTotalCartAmount,url} = useContext(StoreContext)
+ const {cartItems,food_list,removeFromCart, getTotalCartAmount,url,} = useContext(StoreContext)
+ 
+ const handleCheckout = () => {
+  if (!token) {
+    alert("Please login fisrt to continue");
+    return ;
+  } else navigate('/order')
 
-  
+
+ } 
 
   const navigate = useNavigate();
 
@@ -65,7 +72,7 @@ const Cart = () => {
               <hr />
             </div>
           </div>
-          <button onClick={()=>navigate('/order')}>PROCEED TO CHECKOUT</button>
+          <button onClick={handleCheckout}>PROCEED TO CHECKOUT</button>
         </div>
       </div>
     </div>
