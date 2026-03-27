@@ -11,7 +11,7 @@ const Cart = () => {
   
  const handleCheckout = () => {
   if (!token) {
-    alert("Please login fisrt to continue");
+    alert("Please login first to continue");
     return ;
   } else navigate('/order')
 
