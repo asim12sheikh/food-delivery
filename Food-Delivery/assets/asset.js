@@ -178,28 +178,28 @@ export const food_list = [
         image: food_9,
         price: 89,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: food_10,
         price: 99,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: food_11,
         price: 119,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     }, {
         _id: "12",
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 79,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     },
     {
         _id: "13",
