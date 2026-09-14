@@ -39,13 +39,14 @@
     color: #49557e;
     border: 1px solid black;
     padding: 10px 30px;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .navbar button:hover{
   background-color: #fff4f2;
+  border-radius: 50px;
 }
 
 .navbar-search-icon{
