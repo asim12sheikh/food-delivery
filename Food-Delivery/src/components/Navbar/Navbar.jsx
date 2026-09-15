@@ -20,7 +20,7 @@ const Navbar = ({setShowLogin}) => {
 
   return (
     <div className='navbar'>
-     <Link to="/"><img src={asset.logo} alt="" className="logo" /> </Link>
+     <Link to="/"><img src={asset.logo} alt="Delivora" className="logo" /> </Link>
      <ul className='navbar-menu'>
       <Link to='/' onClick={()=> setMenu("home")}
       className={`${menu === "home" ? "underline" : ""}  `}>Home</Link>
