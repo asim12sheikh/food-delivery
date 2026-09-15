@@ -9,7 +9,7 @@ const Footer = () => {
     <div id='footer' className='footer'>
       <div className='footer-content'>
         <div className="footer-left">
-      <Link to="/"> <img className='logoo' src={asset.logo} alt="" /></Link>
+      <Link aria-label='Delivora home' to="/"> <img className='logoo' src={asset.logo} alt="" /></Link>
       <p>We deliver fresh and delicious food right to your doorstep.
         Order your favourite meals anytime and enjoy fast,reliable service.
       </p>

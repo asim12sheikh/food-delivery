@@ -33,7 +33,7 @@ const Navbar = ({setShowLogin}) => {
      </ul>
      <div className="navbar-right">
       <div className="navbar-search-icon">
-      <Link to="/cart"><img src={asset.basket_icon} /></Link>
+      <Link aria-label="Cart" to="/cart"><img alt="Cart" src={asset.basket_icon} /></Link>
       {getTotalCartAmount() > 0 && <div className="red-dot"></div>}
      </div>
      {!token ? <button onClick={()=>setShowLogin(true)}>
